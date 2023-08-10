@@ -5,5 +5,9 @@ public class Animal {
         System.out.println("hello guys");
         String name = "dip";
         Animal animal = new Animal();
+        animal.monkey();
+    }
+    public void monkey(){
+        System.out.println("monkey sounds");
     }
 }
